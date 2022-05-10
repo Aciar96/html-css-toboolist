@@ -1,15 +1,22 @@
 /* generics */
 h1 {
+    font-family: Georgia, 'Times New Roman', Georgia, 'Times New Roman';
     display: inline;
     vertical-align: middle;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
 }
+
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    padding:0px;
+    
 }
 img {
     vertical-align: middle;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 div{
@@ -21,14 +28,17 @@ div{
     border-radius: 5px;
 }
 p{
-    display: inline; 
+    display: inline;
+
     margin-right: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 span{
     border: black;
-   
+   }
+.fix-error{
+    display: block;
 }
 /* main */
 /* header main  */
@@ -36,15 +46,15 @@ span{
     border: 70px;
     padding: 70px;
     height: 800px;
-    background-color: gray;
+    background-color: rgb(238, 238, 238);
 }
 .task{
     margin: 10px 50px;
     margin-right: 5px;
-    background-color:#00bcd4;
+    background-color:#27b5ed;
     border-radius: 5px;
     color: aliceblue;
-    border: none;
+    border-color:#27b5ed;
 }
 .section{
     margin-left: 2px;
@@ -61,11 +71,16 @@ hr{
 .editorial{
     border-radius: 50px;
 }
+
+.triangle{
+    display: inline;
+    margin-bottom: 4px;
+}
 .editorial-aqua{
-    background-color: aqua;
+    background-color: #27b5ed;
     border-radius: 50px;
     color: aliceblue;
-    border-color: aqua;
+    border-color: #27b5ed ;
 }
 .editorial-orange{
     background-color: orange;
@@ -77,6 +92,24 @@ hr{
     background-color: blueviolet;
     border-radius: 50px;
     border-color: blueviolet;
+    color: aliceblue;
+}
+.editorial-green{
+    background-color:rgb(12, 184, 141);
+    border-radius: 50px;
+    border-color: rgb(12, 184, 141);
+    color: aliceblue;
+}
+.editorial-pink{
+    background-color:pink;
+    border-radius: 50px;
+    border-color: pink;
+    color: aliceblue;
+}
+.editorial-greenyellow{
+    background-color:rgb(160, 216, 39);
+    border-radius: 50px;
+    border-color: rgb(160, 216, 39);
     color: aliceblue;
 }
 
