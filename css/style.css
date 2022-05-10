@@ -4,6 +4,9 @@ h1 {
     vertical-align: middle;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 img {
     vertical-align: middle;
     margin-bottom: 5px;
@@ -16,9 +19,15 @@ div{
     width: 800px;
     border: 400px;
     border-radius: 5px;
+}
+p{
+    display: inline; 
+    margin-right: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 /* main */
+/* header main  */
 .container{
     border: 70px;
     padding: 70px;
@@ -42,4 +51,10 @@ div{
 }
 hr{
     background-color: gray;
+}
+
+/* main  */
+.editorial{
+    border-radius: 50px;
+    
 }
