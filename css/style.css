@@ -26,6 +26,10 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
+span{
+    border: black;
+   
+}
 /* main */
 /* header main  */
 .container{
@@ -56,5 +60,41 @@ hr{
 /* main  */
 .editorial{
     border-radius: 50px;
-    
+}
+.editorial-aqua{
+    background-color: aqua;
+    border-radius: 50px;
+    color: aliceblue;
+    border-color: aqua;
+}
+.editorial-orange{
+    background-color: orange;
+    border-radius: 50px;
+    border-color: orange;
+    color: aliceblue;
+}
+.editorial-violet{
+    background-color: blueviolet;
+    border-radius: 50px;
+    border-color: blueviolet;
+    color: aliceblue;
+}
+
+
+.check{
+    display: inline;
+    height: 50px;
+    width: 50px;
+    color: green;
+    border-radius: 50%;
+    border: 2px solid  green;
+   
+}
+.cross{
+    display: inline;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+    color: red;
 }
