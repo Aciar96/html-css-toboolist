@@ -1,0 +1,45 @@
+/* generics */
+h1 {
+    display: inline;
+    vertical-align: middle;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+div{
+    background-color: aliceblue;
+    margin: auto;
+    height: 800px;
+    width: 800px;
+    border: 400px;
+    border-radius: 5px;
+    
+}
+/* main */
+.container{
+    border: 70px;
+    padding: 70px;
+    height: 800px;
+    background-color: gray;
+}
+.task{
+    margin: 10px 50px;
+    margin-right: 5px;
+    background-color:#00bcd4;
+    border-radius: 5px;
+    color: aliceblue;
+    border: none;
+}
+.section{
+    margin-left: 2px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    color: gray;
+    border-color: gray;
+}
+hr{
+    background-color: gray;
+}
